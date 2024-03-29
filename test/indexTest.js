@@ -1,5 +1,6 @@
 require ( './helpers.js' );
 
+
 describe('index.js', function () {
   describe('cats', function () {
     it('is assigned an initial value of ["Milo", "Otis", "Garfield"]', function () {
@@ -11,7 +12,7 @@ describe('index.js', function () {
     beforeEach(function () {
       cats.length = 0;
 
-      cats.push('Milo', 'Otis', 'Garfield');
+      cats.push('Milo', 'Otis', 'Garfield',);
     });
 
     describe('destructivelyAppendCat(name)', function () {
